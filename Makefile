@@ -12,7 +12,7 @@ help: ## This help
 .DEFAULT_GOAL := help
 
 run: install ## runs project, listens on port 8000
-	yarn develop
+	yarn develop -H 0.0.0.0
 
 install: ## installs dependancies
 	yarn install
