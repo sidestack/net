@@ -1,3 +1,3 @@
 FROM node:11
 COPY . /app
-ENTRYPOINT make test --directory /app
+ENTRYPOINT make run --directory /app
