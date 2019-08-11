@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "test": "gatsby build",
     "develop": "gatsby develop",
     "d": "yarn develop",
     "start": "gatsby develop",

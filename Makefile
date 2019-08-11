@@ -16,6 +16,3 @@ run: install ## runs project, listens on port 8000
 
 install: ## installs dependancies
 	yarn install
-
-test: install ## runs tests, currently just builds the project
-	yarn build
