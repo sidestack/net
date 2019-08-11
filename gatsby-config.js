@@ -4,7 +4,11 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitle: `Side Stack`,
+    siteHeadline: `Want to become my Side Stack?`,
+    siteTitleAlt: ``,
+    author: `@sidestack`,
+    siteLanguage: `en`,
   },
   plugins: [
     {
